@@ -11,7 +11,7 @@ Programming, design patterns, and avoid using if-else conditional constructs.
 
 Walkthrough through MarsRover code and the decisions made to ensure correctness, readability, and robustness :-
 
-	•	This enum defines the cardinal directions that the MarsRover can face - North, East, South, and West. Using enum class makes the code more type-safe.
+	•	enum class defines the cardinal directions that the MarsRover can face - North, East, South, and West. Using enum class makes the code more type-safe.
 	
 	•	The class encapsulates the state and behavior of the MarsRover. It has private data members for the rover's position, direction, grid size, and a set to store obstacle positions. Public methods provide an interface to control the rover.
 	
