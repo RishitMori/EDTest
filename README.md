@@ -28,6 +28,7 @@ Walkthrough through MarsRover code and the decisions made to ensure correctness,
 •	The main function creates a MarsRover object, sets its grid size, adds obstacles, executes a series of commands, and prints the final position. It includes exception handling for potential errors.
 
 •	Exception Handling:
+
 	o	The GridSize method throws an exception if the grid size is not positive.
 	o	The FindPosition function throws an exception for an invalid command.
 	o	In the main function, exceptions are caught and error messages are printed to std::cerr.
