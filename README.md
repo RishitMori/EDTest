@@ -8,6 +8,7 @@ right. You'll need to make sure that it avoids obstacles and stays within the bo
 Programming, design patterns, and avoid using if-else conditional constructs.
 
 
+
 Walkthrough through MarsRover code and the decisions made to ensure correctness, readability, and robustness :-
 •	This enum defines the cardinal directions that the MarsRover can face - North, East, South, and West. Using enum class makes the code more type-safe.
 
