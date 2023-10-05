@@ -19,11 +19,11 @@ Walkthrough through MarsRover code and the decisions made to ensure correctness,
 	
 	•	The addObstacle method adds obstacles to the grid. It uses an unordered_set to efficiently store obstacle positions as strings.
 	
-	•	This method rotates the rover left or right based on the input character 'L' or 'R'. It uses modular arithmetic to cycle through the directions.
+	•	Rotate method rotates the rover left or right based on the input character 'L' or 'R'. It uses modular arithmetic to cycle through the directions.
 	
-	•	The move method updates the rover's position based on its current direction. It checks for obstacles and grid boundaries before updating the position.
+	•	Move method updates the rover's position based on its current direction. It checks for obstacles and grid boundaries before updating the position.
 	
-	•	This method returns a string representation of the rover's final position, direction, and whether obstacles were detected.
+	•	Getposition method returns a string representation of the rover's final position, direction, and whether obstacles were detected.
 	
 	•	The main function creates a MarsRover object, sets its grid size, adds obstacles, executes a series of commands, and prints the final position. It includes exception handling for potential errors.
 	
