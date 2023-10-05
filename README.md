@@ -1,3 +1,4 @@
+Rishit Mori
 # EDTest
 Mars Rover Programming Exercise
 
