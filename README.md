@@ -15,7 +15,7 @@ Walkthrough through MarsRover code and the decisions made to ensure correctness,
 	
 	•	The class encapsulates the state and behavior of the MarsRover. It has private data members for the rover's position, direction, grid size, and a set to store obstacle positions. Public methods provide an interface to control the rover.
 	
-	•	This method sets the size of the grid. It includes a check to ensure that the grid size is positive; otherwise, it throws an std::invalid_argument exception.
+	•	GridSize method sets the size of the grid. It includes a check to ensure that the grid size is positive; otherwise, it throws an std::invalid_argument exception.
 	
 	•	The addObstacle method adds obstacles to the grid. It uses an unordered_set to efficiently store obstacle positions as strings.
 	
